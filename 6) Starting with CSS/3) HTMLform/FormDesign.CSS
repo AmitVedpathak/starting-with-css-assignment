@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 28%;
+  background-color: grey;
+  margin: auto;
+  border: 1px solid tomato;
+  border-radius: 5px;
+}
+h2{
+  text-align: center;
+  padding: 15px;
+  color: rgb(168, 235, 12);
+}
+h4{
+  margin: 20px 0px 0px 8px;
+  color: bisque;
+}
+div{
+  margin: 27px 27px 6px 27px;
+}
+input, textarea{
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+textarea{
+  margin-top: 10px;
+}
+.btn{
+  text-align: center;
+  margin-top: 18px;
+}
+.buttons{
+  background-color: blue;
+  color: white;
+  margin-bottom:5px;
+}
+/* Using hover selector we can apply opacity */
+.buttons:hover{
+  opacity: 0.3;
+}
+label{
+  color: white;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different ways to add CSS</title>
+    <!-- link external CSS file  -->
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+        /* Here we target div1 class but it does not effect because inline CSS is more important than internal CSS */
+        .div1{
+            background-color: green;
+        }
+
+        /* We target div2 class by using external CSS but it doesnot effect because, 
+        Internal CSS is higher precedence than external CSS */
+        .div2{
+            font-size: 20px;
+            background-color: aqua;
+        }
+
+        /* Here we directly target div3 class by using internal CSS and extenral CSS but internal CSS,
+          is effect because it is more precedence than external CSS */
+        .div3{
+            background-color: tomato;
+        }
+
+        /* Here we target div4 class using internal CSS and Using Externla css in external file but both doesnot 
+        effect because inline CSS is higher precedence than bot CSS levels */
+        .div4{
+            background-color: green; 
+            color: rgb(206, 54, 54);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1" style="background-color: red;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa neque ex voluptate? Illo consectetur amet molestias fugit tempore repudiandae, ipsam saepe perferendis perspiciatis.
+    </div>
+
+    <div class="div2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit soluta pariatur modi amet totam perferendis quo, quam nobis debitis consectetur quasi! Quisquam, asperiores voluptates.
+    </div>
+    
+    <div class="div3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quod assumenda magnam consequatur sequi error, quasi quae sapiente. Molestias ipsum laudantium enim eius possimus?
+    </div>
+
+    <div class="div4" style="background-color: chocolate;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, provident laboriosam! Aspernatur sint minus nulla ullam nisi ad quos, corrupti totam esse ratione ipsum dolorum explicabo facere tenetur enim debitis unde veniam! Saepe, dolore!
+    </div>
+</body>
+</html>

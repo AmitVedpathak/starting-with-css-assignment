@@ -1,0 +1,42 @@
+/* This is Block  */
+.card{
+    background: wheat;
+    width: 425px;
+    /* height: 570px; */
+    border: 1px solid #888;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+/* This is the Element of the Block */
+.card__heading{
+    font-weight: normal;
+    margin: 16px 0px;
+}
+
+/* This is also Element of the Block */
+.card__para{
+    font-weight: 20px;
+    margin: 32px 0px;
+}
+
+/* This is also Element of the Block */
+.card__btn{
+    padding: 5px 35px;
+    font-size: 20px;
+    border: 1px solid #5888;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* This is both Element and Modifer of the Block */
+.card__btn--primary{
+    background-color: black;
+    color: white;
+}
+
+/* This is both Element and Modifer of the Block */
+.card__btn--secondary{
+    background-color: white;
+    color: black;
+}

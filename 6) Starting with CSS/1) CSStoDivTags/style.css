@@ -1,0 +1,12 @@
+
+/* Here we target div2 class but it doesnt effect because internal CSS is more precedence than external CSS */
+.div2{
+    background-color: blue;
+    font-size: 40px;
+}
+
+/* Here we target div4 class using internal CSS and Using Externla css in external file but both doesnot 
+ effect because inline CSS is higher precedence than bot CSS levels */
+.div4{
+    background-color: pink;
+}

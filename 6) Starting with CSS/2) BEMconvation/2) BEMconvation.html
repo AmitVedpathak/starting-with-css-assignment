@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM naming convation</title>
+    <link rel="stylesheet" href="./BEMconvation.css">
+</head>
+<body>
+
+    <!-- This is Block element named as card-->
+    <div class="card">
+
+        <!-- This is the element of the Block card so we use __ symbol to represent element of block -->
+        <div class="card__heading">
+            Title Text
+        </div>
+
+        <!-- This is also element of the Block card so we use __ symbol to represent element of block -->
+        <div class="card__para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam doloribus blanditiis voluptas, repudiandae impedit consequatur provident quas corrupti nisi officiis distinctio debitis perferendis?
+        </div>
+
+        <!-- This is also element of the Block card so we use __ symbol to represent element of block -->
+        <div class="card__para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nesciunt voluptatum laborum totam, culpa sunt provident, iste excepturi aliquid deserunt sequi tempore debitis?
+        </div>
+
+        <!-- This is element and also modifier of Block so we use -- symbol for representing Modifier of the block (card__btn--primary),
+        and -- symbol for representing Elemet of the Block (card__btn)-->
+        <button class="card__btn card__btn--primary">primary</button>
+        <button class="card__btn card__btn--secondary">secondary</button>
+    </div>
+
+    <!-- In the aboce explained type we use BEM naming convation for classes -->
+</body>
+</html>
